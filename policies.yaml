@@ -1,0 +1,34 @@
+# Exported at 2018-08-23T18:34:08.671Z
+
+version: v1
+kind: AccessPolicy
+name: policy-tenant-fa2c1d78-9f00-4e30-8268-4ab81862080d
+id: 27cf740a-1714-11e8-99cf-0a7293fc542e
+roleBindings:
+  - role: group.edit
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+  - role: group.view
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceUsers
+  - role: organization.iam.edit
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+  - role: organization.edit
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+  - role: folder.iam.edit
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+  - role: folder.edit
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+  - role: project.iam.edit
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+  - role: project.edit
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+  - role: smartcluster.admin
+    subjects:
+      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
