@@ -1,34 +1,16 @@
-# Exported at 2018-08-23T18:34:08.671Z
+# Exported at 2018-08-24T23:58:31.739Z
 
 version: v1
 kind: AccessPolicy
-name: policy-tenant-fa2c1d78-9f00-4e30-8268-4ab81862080d
-id: 27cf740a-1714-11e8-99cf-0a7293fc542e
+name: policy-folder-policies-demo
+id: 870dd320-a721-11e8-b61d-1292ed223318
 roleBindings:
-  - role: group.edit
+  - role: folder.view
     subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
-  - role: group.view
+      - tspoonemore@vmware.com
+  - role: project.view
     subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceUsers
-  - role: organization.iam.edit
-    subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
-  - role: organization.edit
-    subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
-  - role: folder.iam.edit
-    subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
-  - role: folder.edit
-    subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
-  - role: project.iam.edit
-    subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
-  - role: project.edit
-    subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+      - tspoonemore@vmware.com
   - role: smartcluster.admin
     subjects:
-      - fa2c1d78-9f00-4e30-8268-4ab81862080d\VKEServiceAdministrators
+      - tspoonemore@vmware.com
