@@ -1,16 +1,12 @@
-# Exported at 2018-08-24T23:58:31.739Z
+# Imported at 2018-08-30
 
 version: v1
 kind: AccessPolicy
-name: policy-folder-policies-demo
-id: 870dd320-a721-11e8-b61d-1292ed223318
+name: policy-project-project-2
 roleBindings:
-  - role: folder.view
+  - role: project.edit
     subjects:
-      - tspoonemore@vmware.com
-  - role: project.view
-    subjects:
-      - tspoonemore@vmware.com
+      - alainr@vmware.com
   - role: smartcluster.admin
     subjects:
-      - tspoonemore@vmware.com
+      - alainr@vmware.com
