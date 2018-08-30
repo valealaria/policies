@@ -1,0 +1,11 @@
+version: v1
+kind: AccessPolicy
+name: policy-project-project-1
+id: 33c6a87b-abe7-11e8-8b79-0e4812b51848
+roleBindings:
+  - role: project.edit
+    subjects:
+      - bshelton@vmware.com
+  - role: smartcluster.admin
+    subjects:
+      - bshelton@vmware.com
