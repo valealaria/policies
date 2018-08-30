@@ -1,12 +1,9 @@
-# Imported at 2018-08-30
+# New import 2018-08-30
 
 version: v1
 kind: AccessPolicy
 name: policy-project-project-2
 roleBindings:
-  - role: project.edit
-    subjects:
-      - alainr@vmware.com
   - role: smartcluster.admin
     subjects:
       - alainr@vmware.com
